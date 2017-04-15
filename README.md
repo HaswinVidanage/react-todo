@@ -1,7 +1,6 @@
-# React Todo Application
+# Boilerplate React App -v2
 
-This is a todo application made with React
-!!! still being developed
+This is a more complete boilerplate for react apps with scss support and karma testing.
 
 ## Getting Started
 
