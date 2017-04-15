@@ -3,7 +3,7 @@ var ReactDOM = require('react-dom');
 //es6 object destructuring
 var {Route, Router, IndexRoute, hashHistory} = require('react-router');
 
-
+var TodoApp = require('TodoApp');
 //Load foundation
 $(document).foundation();
 
@@ -12,6 +12,6 @@ require('style!css!sass!applicationStyles');
 
 
 ReactDOM.render(
-  <p>Boilerplate v3 project</p>,
+  <TodoApp/>,
    document.getElementById('app')
 );
