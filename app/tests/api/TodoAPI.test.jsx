@@ -18,8 +18,8 @@ describe('TodoAPI', () => {
         test: 'test all files',
         completed: false
       }];
-      TodoAPI.setTodos(todos);
 
+      TodoAPI.setTodos(todos);
       var actualTodos = JSON.parse(localStorage.getItem('todos'));
 
       expect(actualTodos).toEqual(todos);
