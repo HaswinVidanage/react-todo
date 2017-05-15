@@ -1,6 +1,6 @@
-# Boilerplate React App -v2
+# React Todo App
 
-This is a more complete boilerplate for react apps with scss support and karma testing.
+The app contains a complete Todo App made using ReactJs
 
 ## Getting Started
 
@@ -38,6 +38,8 @@ npm test
 ## Built With
 
 * [ReactJs](https://facebook.github.io/react/) - JavaScript Library used for building user interfaces.
+
+* [Firebase](https://firebase.google.com/) -   Realtime Database
 
 ## License
 
